@@ -85,6 +85,7 @@ header{
 .services{
     background:#ffffff;
     padding:100px 20px;
+    border-radius: 20px;
 }
 
 .container{
@@ -256,7 +257,7 @@ main{
 
 .me h3{
     font-size: clamp(12px, 1.3vw, 22px);
-    text-align: left;
+    text-align: center;
     margin-top: 30px;
     color: #fff;
 }
@@ -268,51 +269,45 @@ main{
 
 
 
-.projekty{
-    margin: 2vw auto;
+.projekty{ 
+    margin: 2vw auto; 
+} 
+
+.projekty h1{ 
+    margin-top: 80px; margin-bottom: 50px; text-decoration: overline; letter-spacing: 8px; color: #15b2da; 
+} 
+
+.projekty-row{ display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; width: 90%; margin: auto; 
+} 
+
+.projekt{ background: rgba(255,255,255,0.05); border-radius: 15px; padding: 20px; text-align: center; 
+} 
+
+.projekt img{ width: 100%; border-radius: 10px; 
+} 
+
+.projekt h3{ 
+    font-size: clamp(20px, 1.8vw, 30px); color: #fff; margin-top: 15px; 
+} 
+
+.projekt p{ font-size: clamp(12px, 1.3vw, 22px); margin-bottom: 20px; color: #fff; 
+} 
+
+.projekt a{ text-decoration: none; font-size: clamp(10px, 1.4vw, 20px); background-color: #15b2da; padding: 10px 15px; color: #fff; border-radius: 12px; 
+} 
+
+.projekt a:hover{ color: #000; background-color: #15b3daa8; transition: background 0.5s; 
 }
 
-.projekty h1{
-    margin-top: 80px;
-    margin-bottom: 50px;
-    text-decoration: overline;
-    letter-spacing: 8px;
-    color: #15b2da;
-}
+@media (max-width: 900px){
+    .projekty-row{ grid-template-columns: repeat(2, 1fr); 
+    } 
+} 
 
-
-.projekt{
-    margin: 3vw;
-}
-
-.projekt img{
-    width: 50%;
-}
-
-.projekt h3{
-    font-size: clamp(20px, 1.8vw, 30px);
-    color: #fff;
-}
-
-.projekt p{
-    font-size: clamp(12px, 1.3vw, 22px);
-    margin-bottom: 20px;
-    color: #fff;
-}
-
-.projekt a{
-    text-decoration: none;
-    font-size: clamp(10px, 1.4vw, 20px);
-    background-color: #15b2da;
-    padding: 10px 15px;
-    color: #fff;
-    border-radius: 12px;
-}
-
-.projekt a:hover{
-    color: #000;
-    background-color: #15b3daa8;
-    transition: background 0.5s;
+@media (max-width: 600px){ 
+    .projekty-row{ 
+        grid-template-columns: 1fr; 
+    } 
 }
 
 /*      MAIN END
