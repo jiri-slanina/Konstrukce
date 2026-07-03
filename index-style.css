@@ -46,12 +46,14 @@ header{
 
 .hlavicka h2{
     font-size: clamp(20px,2vw,36px);
-    color: #c2c2c2bd;
+    color: #15b2da;
+    letter-spacing: 5px;
 }
 
 .hlavicka p{
     font-size: clamp(14px,1.3vw,24px);
     color: #ffffff;
+    letter-spacing: 2px;
 }
 
 
@@ -63,6 +65,7 @@ header{
 
 .contact h4 strong{
     text-decoration: underline;
+    color: #15b2da;
 }
 
 .ikona img{
@@ -116,7 +119,7 @@ main{
 .me h1{
     font-size: clamp(24px, 1.7vw, 32px);
     padding: 10px;
-    text-align: center;
+    text-align: left;
     text-decoration: underline;
     color: #fff;
 }
@@ -126,6 +129,11 @@ main{
     text-align: left;
     margin-top: 30px;
     color: #fff;
+}
+
+.me h3 i{
+    color: #15b2da;
+    font-size: clamp(14px, 1.4vw, 24px);
 }
 
 
@@ -142,7 +150,7 @@ main{
 
 
 .projekt{
-    margin: 2vw;
+    margin: 3vw;
 }
 
 .projekt img{
