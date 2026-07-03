@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #000000cc;
+}
+
+
+
+/*      HEADER
+*/
+header{
+    width: 100%;
+    height: auto;
+    background-color: rgb(24, 12, 2);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-bottom: 2px solid #15b2da;
+}
+
+.hlavicka{
+    padding: 20px;
+    text-align: center;
+}
+
+.hlavicka h2{
+    font-size: clamp(20px,2vw,36px);
+    color: #15b2da;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}
+
+.hlavicka p{
+    font-size: clamp(14px,1.3vw,24px);
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+
+.contact {
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.contact h4{
+    color: #fff;
+    font-size: clamp(10px,1vw,18px);
+}
+
+.contact h4 strong{
+    text-decoration: underline;
+    color: #15b2da;
+}
+
+.ikona img{
+    width: 150px;
+    position: absolute;
+    top: -0.9vw;
+    right: 0;
+}
+
+@media (max-width:1160px){
+    .ikona img{
+        width: 120px;
+    }
+}
+
+
+/**************************************/
+
+
+
+
+/********************MAIN START***************/
+main{
+    margin: 2vw auto;
+}
+
+
+.poptavka h2{
+    text-align: center;
+    margin: 50px auto;
+    font-size: clamp(20px, 2vw, 36px);
+    color: #fff;
+}
+
+.poptavka strong i{
+    color: #15b2da;
+    font-size: clamp(30px, 2.2vw, 38px);
+    text-decoration: underline;
+}
+
+.poptavka form{
+    margin: 0 auto;
+    text-align: center;
+    border: 3px solid #15b2da;
+    border-radius: 80px;
+    padding: 50px 0;
+    background-color: #acacac3d;
+}
+
+.poptavka input{
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+.poptavka input:hover{
+    background-color: #222222e3;
+    color: #15b2da;
+    transition: background 0.7s;
+    border-color: #fff;
+}
+
+.poptavka form textarea{
+    border-radius: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.poptavka form textarea:hover{
+    border-color: #15b2da;
+}
+
+.poptavka p{
+    margin-top: 20px;
+    color: #fff;
+}
+
+.poptavka input[type=submit]{
+    margin-top: 50px;
+}
+
+
+
+/******************************************/
+
+/***************FOOTER START*****************/
+footer {
+    background-color: #1b1b1b;
+    border-top: 3px solid #15b3daa8;
+    margin-top: 80px;
+}
+
+.paticka {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.paticka h3 {
+    color: #15b3daa8;
+    margin-bottom: 10px;
+}
+
+.paticka p {
+    color: #dcdcdc;
+    margin: 5px 0;
+}
+
+.paticka-copy {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #444;
+    font-size: 14px;
+}
+
+/********************************************/
