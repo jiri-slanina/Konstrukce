@@ -50,6 +50,9 @@ header{
 }
 
 
+.contact {
+    margin-left: 30px;
+}
 
 .contact h4{
     color: #fff;
@@ -205,8 +208,6 @@ header{
 }
 
 
-
-
 /********************************/
 
 /*      HEADER END
@@ -235,6 +236,7 @@ main{
     background-color: rgba(0, 0, 0, 0.863);
     padding: 2vw;
     border-radius: 2vw;
+    margin: 30px auto;
 }
 
 .me:hover{
