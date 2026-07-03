@@ -30,6 +30,7 @@ header{
     height: auto;
     background-color: rgb(24, 12, 2);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-bottom: 2px solid #15b2da;
 }
 
 .hlavicka{
@@ -41,6 +42,7 @@ header{
     font-size: clamp(20px,2vw,36px);
     color: #15b2da;
     letter-spacing: 5px;
+    word-spacing: 5px;
 }
 
 .hlavicka p{
@@ -52,6 +54,7 @@ header{
 
 .contact {
     margin-left: 30px;
+    margin-bottom: 10px;
 }
 
 .contact h4{
@@ -67,7 +70,7 @@ header{
 .ikona img{
     width: 150px;
     position: absolute;
-    top: -1vw;
+    top: -0.9vw;
     right: 0;
 }
 
@@ -240,15 +243,14 @@ main{
 }
 
 .me:hover{
-    background-color: #f1e6e64b;
+    background-color: #f1e6e61a;
     transition: background 0.7s;
 }
 
 .me h1{
     font-size: clamp(24px, 1.7vw, 32px);
     padding: 15px;
-    text-align: left;
-    text-decoration: underline;
+    text-align: center;
     color: #fff;
 }
 
@@ -328,12 +330,35 @@ main{
 /*      FOOTER
 */
 
+footer {
+    background-color: #1b1b1b;
+    border-top: 3px solid #15b3daa8;
+    margin-top: 80px;
+}
 
+.paticka {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    text-align: center;
+}
 
+.paticka h3 {
+    color: #15b3daa8;
+    margin-bottom: 10px;
+}
 
+.paticka p {
+    color: #dcdcdc;
+    margin: 5px 0;
+}
 
-
-
+.paticka-copy {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #444;
+    font-size: 14px;
+}
 
 
 
