@@ -7,16 +7,9 @@
 
 /*      BODY
 */
-
-
-
-
-
-
-
-
-
-
+body{
+    background-color: #000000cc;
+}
 
 
 
@@ -116,9 +109,14 @@ main{
     border-radius: 2vw;
 }
 
+.me:hover{
+    background-color: #f1e6e64b;
+    transition: background 0.7s;
+}
+
 .me h1{
     font-size: clamp(24px, 1.7vw, 32px);
-    padding: 10px;
+    padding: 15px;
     text-align: left;
     text-decoration: underline;
     color: #fff;
@@ -146,6 +144,8 @@ main{
     margin-top: 200px;
     margin-bottom: 50px;
     text-decoration: overline;
+    letter-spacing: 8px;
+    color: #15b2da;
 }
 
 
@@ -159,11 +159,13 @@ main{
 
 .projekt h3{
     font-size: clamp(20px, 1.8vw, 30px);
+    color: #fff;
 }
 
 .projekt p{
     font-size: clamp(12px, 1.3vw, 22px);
     margin-bottom: 20px;
+    color: #fff;
 }
 
 .projekt a{
