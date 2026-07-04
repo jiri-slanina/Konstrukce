@@ -298,6 +298,10 @@ main{
 .projekt a{ text-decoration: none; font-size: clamp(10px, 1.4vw, 20px); background-color: #15b2da; padding: 10px 15px; color: #fff; border-radius: 12px; 
 } 
 
+.projekt:hover{
+    transform: scale(1.05);
+}
+
 .projekt a:hover{ color: #000; background-color: #15b3daa8; transition: background 0.5s; 
 }
 
