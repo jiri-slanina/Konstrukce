@@ -12,20 +12,27 @@
 <body>
 
     <header>
+
+    <div class="header-info">
+
         <div class="hlavicka">
             <h2>Jiří Slanina</h2>
-            <p>Konstruktér - Technolog</p>
+            <p>Konstruktér • Technolog</p>
+            <span>Specializace na CAD konstrukci, technickou dokumentaci a výrobní výkresy.</span>
         </div>
 
         <div class="contact">
-            <h4>e-mail: <strong><i>jirislanina96@gmail.com</i></strong></h4>
-            <h4>tel.: <strong><i>+420 725 772 268</i></strong></h4>
+            <h4>📧 jirislanina96@gmail.com</h4>
+            <h4>📞 +420 725 772 268</h4>
         </div>
 
-        <div class="ikona">
-            <img src="img/cad-ikon.png" alt="">
-        </div>
-    </header>
+    </div>
+
+    <div class="ikona">
+        <img src="img/cad-ikon.png" alt="CAD ikona">
+    </div>
+
+</header>
 
 
     <main>
@@ -109,8 +116,9 @@
         <!--****************************-->
 
 
-
-
+<br>
+<hr>
+<br>
         <div class="me">
             <h1>O mně</h1>
             <h3>Jmenuji se <i>Jiří Slanina</i> a pohybuji se ve strojírenském oboru již několik let. <br>Pracuji
@@ -119,48 +127,119 @@
                 systémů. <br>Na těchto stránkách prezentuji ukázky své práce a projekty, na kterých jsem pracoval.
             </h3>
         </div>
-
-
+        <br>
+<hr>
+<br>
         <section class="projekty">
-            <h1>Projekty</h1>
 
-            <div class="projekty-row">
+    <h1>Projekty</h1>
 
-                <div class="projekt">
-                    <img src="project/Podložka.png" alt="Projekt 1">
-                    <h3>Boční úchyt trubky</h3>
-                    <p>Technický výkres vytvořený v CAD systému.</p> <a href="project/Podložka 120x60x10.pdf"
-                        download>Stáhnout PDF</a>
-                </div>
+    <div class="projekty-menu">
+        <button id="btn-real">Realizované projekty</button>
+        <button id="btn-test">Ukázkové projekty</button>
+    </div>
 
-                <div class="projekt">
-                    <img src="project/Žebro do rámu.png" alt="Projekt 2">
-                    <h3>Žebro do rámu nosníku</h3>
-                    <p>Klasický výkres pro výpalek + DXF soubor.</p>
-                    <a href="project/Žebro 200x80x8.pdf" download>Stáhnout PDF</a>
-                </div>
+    <!-- REALIZOVANÉ -->
 
-                <div class="projekt">
-                    <img src="project/Držak světla v kabině.png" alt="Projekt 3">
-                    <h3>Držák světla v kabině</h3>
-                    <p>Ohýbaný díl s drážkami a otvory + rozvin s DXF.</p>
-                    <a href="project/Žebro 200x80x8.pdf" download>Stáhnout PDF</a>
-                </div>
+    <div class="projekty-row" id="realizovane">
 
-                <div class="projekt">
-                    <img src="project/konzole.png" alt="Projekt 4">
-                    <h3>Konzole</h3>
-                    <p>Základna konzole, jednotný díl.</p> <a href="project/Konzole-1.pdf" download>Stáhnout PDF</a>
-                </div>
+        <div class="projekt">
+            <img src="project/konzole.png" alt="Projekt 4">
+            <h3>Konzole</h3>
+            <p>Základna konzole, jednotný díl.</p>
+            <a href="project/Konzole-1.pdf" download>Stáhnout PDF</a>
+        </div>
 
-                <div class="projekt">
-                    <img src="project/Výpalek s otvorem.png" alt="Projekt 5">
-                    <h3>Krytka</h3>
-                    <p>Zakrývací plech.</p>
-                    <a href="project/Výpalek s otvorem.pdf" download>Stáhnout PDF</a>
-                </div>
-            </div>
-        </section>
+        <div class="projekt">
+            <img src="project/Žebro do rámu.png" alt="Projekt 2">
+            <h3>Žebro do rámu nosníku</h3>
+            <p>Klasický výkres pro výpalek + DXF soubor.</p>
+            <a href="project/Žebro 200x80x8.pdf" download>Stáhnout PDF</a>
+        </div>
+
+        <div class="projekt">
+            <img src="project/Držák.png" alt="Projekt 2">
+            <h3>Držák do rámu</h3>
+            <p>Klasický výkres pro výpalek + DXF soubor.</p>
+            <a href="project/Držák.pdf" download>Stáhnout PDF</a>
+        </div>
+    </div>
+
+    <!--                         UKÁZKOVÉ                  -->
+
+    <div class="projekty-row" id="ukazkove">
+
+        <div class="projekt">
+            <img src="project/Držak světla v kabině.png" alt="Projekt 3">
+            <h3>Držák světla v kabině</h3>
+            <p>Ohýbaný díl s drážkami a otvory + rozvin s DXF.</p>
+            <a href="project/Žebro 200x80x8.pdf" download>Stáhnout PDF</a>
+        </div>
+
+        <div class="projekt">
+            <img src="project/Podložka.png" alt="Projekt 4">
+            <h3>Podložka</h3>
+            <p>Technický výkres podložky pro usazení trubky.</p>
+            <a href="project/Konzole-1.pdf" download>Stáhnout PDF</a>
+        </div>
+
+        <div class="projekt">
+            <img src="project/Výpalek s otvorem.png" alt="Projekt 5">
+            <h3>Krytka</h3>
+            <p>Zakrývací plech.</p>
+            <a href="project/Výpalek s otvorem.pdf" download>Stáhnout PDF</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+        <section class="spoluprace">
+
+    <h1>Jak probíhá spolupráce?</h1>
+
+    <div class="kroky">
+
+        <div class="krok">
+            <span>1</span>
+            <h3>Zašlete podklady</h3>
+            <p>
+                Pošlete náčrt, fotografii nebo popis dílu
+                včetně požadovaných rozměrů.
+            </p>
+        </div>
+
+        <div class="krok">
+            <span>2</span>
+            <h3>Upřesnění zadání</h3>
+            <p>
+                Domluvíme detaily dílu a požadovaný
+                výstup dokumentace.
+            </p>
+        </div>
+
+        <div class="krok">
+            <span>3</span>
+            <h3>Zpracování výkresu</h3>
+            <p>
+                Vytvořím technický výkres, rozvin
+                a případně DXF soubor.
+            </p>
+        </div>
+
+        <div class="krok">
+            <span>4</span>
+            <h3>Předání dokumentace</h3>
+            <p>
+                Hotové podklady obdržíte ve formátu
+                PDF a DXF připravené pro výrobu.
+            </p>
+        </div>
+
+    </div>
+
+</section>
 
 
     </main>
@@ -186,7 +265,7 @@
         </div>
     </footer>
 
-
+<script src="script.js"></script>
 </body>
 
 </html>

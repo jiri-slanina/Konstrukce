@@ -75,70 +75,44 @@ header{
 
 
 /********************MAIN START***************/
-main{
-    margin: 2vw auto;
+.formular{
+    margin-top: 100px;
 }
 
+.formular form{
+    display: flex;  
+    flex-direction: column;
+    padding: 50px;
+}
 
-.poptavka h2{
+.formular h2{
+    font-size: 2rem;
     text-align: center;
-    margin: 50px auto;
-    font-size: clamp(20px, 2vw, 36px);
+    color: #15b2da;
+}
+
+.formular form input{
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.formular form textarea{
+    width: 300px;
+    height: 5rem;
+    margin: 1vw auto;
+    border-radius: 10px;
+}
+
+.formular form input[type=file]{
     color: #fff;
 }
 
-.poptavka strong i{
-    color: #15b2da;
-    font-size: clamp(30px, 2.2vw, 38px);
-    text-decoration: underline;
+.formular form input[type=submit]{
+    width: 100px;
 }
-
-.poptavka form{
-    margin: 0 auto;
-    text-align: center;
-    border: 3px solid #15b2da;
-    border-radius: 80px;
-    padding: 50px 0;
-    background-color: #acacac3d;
-}
-
-.poptavka input{
-    display: block;
-    margin: 10px auto;
-    padding: 10px 20px;
-    border-radius: 20px;
-    background-color: #000000;
-    color: #ffffff;
-    text-align: center;
-}
-
-.poptavka input:hover{
-    background-color: #222222e3;
-    color: #15b2da;
-    transition: background 0.7s;
-    border-color: #fff;
-}
-
-.poptavka form textarea{
-    border-radius: 30px;
-    margin-top: 30px;
-    text-align: center;
-}
-
-.poptavka form textarea:hover{
-    border-color: #15b2da;
-}
-
-.poptavka p{
-    margin-top: 20px;
-    color: #fff;
-}
-
-.poptavka input[type=submit]{
-    margin-top: 50px;
-}
-
-
 
 /******************************************/
 
@@ -173,4 +147,48 @@ footer {
     font-size: 14px;
 }
 
-/********************************************/
+/**********************************************************/
+
+
+
+
+
+
+
+/*                     POMŮCKA PRO FLEX
+****************************************************************/
+
+
+/*justify-content: flex-start;   /* vlevo */
+/*justify-content: center;       /* doprostřed */
+/*justify-content: flex-end;     /* vpravo */
+/*justify-content: space-between;/* krajní na okraje */
+/*justify-content: space-around; /* stejné mezery okolo */
+/*justify-content: space-evenly; /* úplně stejné mezery */
+
+
+
+/*align-items: flex-start; /* nahoru */
+/*align-items: center;     /* doprostřed */
+/*align-items: flex-end;   /* dolů */
+/*align-items: stretch;    /* roztáhne výšku */
+
+
+
+
+/*flex-direction: row;         /* vedle sebe */
+/*flex-direction: column;      /* pod sebe */
+/*flex-direction: row-reverse;
+/*flex-direction: column-reverse;
+
+
+
+/*flex-wrap: wrap;
+/*display: flex;
+/*justify-content: center;
+/*align-items: center;
+/*gap: 20px;
+/*flex-wrap: wrap;
+
+
+/*************************************************************/
