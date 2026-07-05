@@ -4,12 +4,12 @@ let btnTest = document.getElementById("btn-test");
 let real = document.getElementById("realizovane");
 let test = document.getElementById("ukazkove");
 
-btnReal.onclick = function () {
-    real.style.display = "flex";
-    test.style.display = "none";
-};
+btnReal.onclick = function(){
+    realizovane.style.display = "grid";
+    ukazkove.style.display = "none";
+}
 
-btnTest.onclick = function () {
-    real.style.display = "none";
-    test.style.display = "flex";
-};
+btnTest.onclick = function(){
+    realizovane.style.display = "none";
+    ukazkove.style.display = "grid";
+}

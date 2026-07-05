@@ -370,6 +370,10 @@ main{
     }
 }
 
+.projekty-row{
+    width: 100%;
+}
+
 .projekty-menu{
     display: flex;
     justify-content: center;
