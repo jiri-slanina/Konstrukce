@@ -104,15 +104,20 @@ header{
 
 /**************************************/
 
+
+
+
+
 /*tlačítko posunutí*/
 html{
     scroll-behavior: smooth;
 }
 
 .scroll-btn{
-    width: 20%;
+    width: 30%;
+    white-space: nowrap;
     text-align: center;
-    margin: 30px 0;
+    margin: 30px auto;
     cursor: pointer;
 }
 
@@ -131,6 +136,8 @@ html{
     background-color: #0f98bb;
     transform: translateY(-3px);
 }
+
+
 /**-****************************************/
 
 
