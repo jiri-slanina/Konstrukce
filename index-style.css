@@ -104,6 +104,43 @@ header{
 
 /**************************************/
 
+/*tlačítko posunutí*/
+html{
+    scroll-behavior: smooth;
+}
+
+.scroll-btn{
+    width: 20%;
+    text-align: center;
+    margin: 30px 0;
+    cursor: pointer;
+}
+
+.scroll-btn a{
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #15b2da;
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    font-size: clamp(14px, 1.2vw, 18px);
+    transition: 0.3s;
+}
+
+.scroll-btn a:hover{
+    background-color: #0f98bb;
+    transform: translateY(-3px);
+}
+/**-****************************************/
+
+
+
+
+
+
+
+
+
 /**************************************************zkušební */
 .services{
     background:#ffffff;
@@ -370,9 +407,6 @@ main{
     }
 }
 
-.projekty-row{
-    width: 100%;
-}
 
 .projekty-menu{
     display: flex;

@@ -71,7 +71,29 @@ header{
 
 /**************************************/
 
+.back-page{
+    margin: 2vw auto;
+    text-align: center;
+}
 
+.back-page a{
+    font-size: clamp(16px, 1.5vw, 25px);
+    padding: 5px 10px;
+}
+
+.btn-back{
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #15b2da;
+    border-radius: 10px;
+}
+
+.btn-back:hover{
+    background-color: #fff;
+    color: #444;
+    border-color: #444;
+    transition: background 0.7s, color 0.7s;
+}
 
 
 /********************MAIN START***************/
@@ -107,11 +129,13 @@ header{
 }
 
 .formular form input[type=file]{
+    cursor: pointer;
     color: #fff;
 }
 
 .formular form input[type=submit]{
     width: 100px;
+    cursor: pointer;
 }
 
 /******************************************/
