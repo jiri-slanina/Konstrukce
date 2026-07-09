@@ -255,7 +255,7 @@ html{
     font-size:18px;
 }
 
-.service-info li::before{
+*/service-info li::before{
     content:"✔";
     color:#15b2da;
     margin-right:10px;
