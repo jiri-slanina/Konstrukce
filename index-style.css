@@ -515,6 +515,18 @@ main{
 
 
 
+.btn-up{
+    text-align: center;
+    margin: 2vw auto;
+}
+
+.btn-up a{
+    text-decoration: none;
+    font-size: clamp(20px, 1.8vw, 36px);
+    color: #fff;
+}
+
+
 
 /*      FOOTER
 */
